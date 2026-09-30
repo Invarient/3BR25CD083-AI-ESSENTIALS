@@ -1,25 +1,46 @@
-# 🚦 Smart Traffic Lights Using Local AI
+# 🐍 Snake — Arcade Classic
 
-An **IEEE conference-format LaTeX project** evaluating adaptive traffic signal control systems. This study contrasts cloud-based processing with local edge AI computing and highlights architectural gaps in emergency vehicle routing.
+A modern, responsive web application of the classic **Snake** arcade game built with Next.js, React, and Tailwind CSS.
 
-## 📦 Repository Structure
+🌐 **Live Demo:** [https://snake-game-beta-lac-28.vercel.app/](https://snake-game-beta-lac-28.vercel.app/)
 
-* **`main.tex`**: The primary LaTeX source file containing document text, formatted metadata, a data comparison table, and a built-in TikZ system architecture flowchart.
-* **`reference.bib`**: The BibTeX file containing verified research citations for Deep Reinforcement Learning and machine-vision optimizations.
+---
 
-## 🛠️ How to Compile
+## 🎮 Game Overview
 
-You can compile this project locally using any standard LaTeX distribution (like TeX Live or MiKTeX) or upload it directly to [Overleaf](https://overleaf.com).
+Slither your way to a high score! Eat the food, grow longer, and avoid running into the walls or colliding with your own tail. As you consume food, your score increases, and every 5 bites the game speeds up as you advance through the levels.
 
-### Local Compilation via CLI
-Run the following sequence in your terminal to resolve citations and cross-references correctly:
+---
 
-```bash
-pdflatex main.tex
-bibtex main
-pdflatex main.tex
-pdflatex main.tex
-```
+## ✨ Features
 
-## 📜 Dependencies
-The document relies on standard academic packages including `IEEEtran`, `cite`, `booktabs` (for clean tables), and `tikz` (with `positioning` and `arrows.meta` libraries for layout generation).
+- **Progressive Difficulty:** Advance through 10 speed levels. The game pace increases every 5 bites!
+- **Score & High Score Tracking:** Track your current score and challenge yourself to beat your personal best.
+- **Cross-Platform Play:**
+  - Desktop keyboard controls (Arrow keys, Space, Enter)
+  - Mobile touch controls (On-screen directional buttons)
+- **Pause & Resume:** Easily pause the action anytime with the `Space` key.
+- **Modern UI:** Built with sleek Tailwind CSS styling, dark mode support, and smooth arcade aesthetics.
+
+---
+
+## 🕹️ Game Controls
+
+### Desktop Keyboard Controls
+| Key | Action |
+| --- | --- |
+| `←` `↑` `↓` `→` | Move Snake (Left, Up, Down, Right) |
+| `Space` | Pause / Resume Game |
+| `Enter` | Restart Game |
+
+### Mobile Controls
+- Directional arrow buttons rendered on screen for mobile/touch screen devices.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/)
+- **UI & Styling:** [React](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Deployment:** [Vercel](https://vercel.com/)
